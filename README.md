@@ -1,5 +1,5 @@
 # photoprism-guide
-Configure reverse proxy using nginx for photoprism on umbrel server behind CGNAT using ngrok
+Configure reverse proxy using nginx for photoprism on umbrel server behind CGNAT with ngrok.
 
 Before starting, you should have an umbrel server with photoprism installed.
 
