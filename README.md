@@ -89,7 +89,7 @@ server {
 }
 ```
 
-Note: Pay attention to changing the desired url in this configuration file.
+Note: Pay attention to changing `<url here>` in this configuration file.
 
 Save the file and exit the editor.
 
@@ -119,7 +119,7 @@ Request a new certificate from LetsEncrypt.
 sudo certbot --nginx -d <url here> --agree-tos --tls-sni-01-port 15443 --http-01-port 15080
 ```
 
-Note: Make sure to replace <url here>
+Note: Make sure to replace `<url here>`
   
 When Certbot asks you about redirecting, choose 1: No redirect.
 
@@ -149,7 +149,7 @@ server {
 }
 ```
   
-Note: Replace the two occurrences of <url here>.
+Note: Replace the two occurrences of `<url here>`.
 
 Then, validate & reload the configuration:
   
